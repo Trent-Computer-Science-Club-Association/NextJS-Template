@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  typecheck:
+  lint:
     runs-on: ubuntu-latest
 
     strategy:
@@ -26,4 +26,4 @@ jobs:
       - name: Lint
         run: |
           npm install
-          npm lint
+          npm run lint
