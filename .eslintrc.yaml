@@ -2,9 +2,9 @@ env:
   browser: true
 extends:
   - 'eslint:recommended'
-  - 'plugin:prettier/recommended'
   - 'plugin:@typescript-eslint/recommended'
   - 'plugin:@next/next/recommended'
+  - 'prettier'
 parser: '@typescript-eslint/parser'
 parserOptions:
   ecmaVersion: latest

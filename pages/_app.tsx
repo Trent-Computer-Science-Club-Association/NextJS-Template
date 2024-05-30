@@ -1,5 +1,5 @@
 // Styles
-import '../_static/Style/Global.scss';
+import '@/styles/globals.scss';
 // Vitals
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/react';
